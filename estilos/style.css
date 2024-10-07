@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+} 
+
+nav{
+    padding-left: 2rem;
+}
+nav img{
+    width: 12rem;
+    
+    
+}
+#whatsappIcon{
+    width: 2rem;
+   
+}
+
+p{
+    font-size: 1.2rem;
+}
+.nosotros {
+    margin-top: 3rem;
+}
+.nosotros h3, .proyectos h3{
+
+    background-color: #002a43;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: .5rem;
+    
+}
+.nosotros .row{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+ 
+
+.servicios{
+    width: 60%;
+    margin-top: 1rem;
+}
+.servicios .row{
+    text-align: center;
+}
+.servicios img{
+    width: 100%;
+    
+}
+.servicios p{
+    font-size: .9rem;
+    padding: .5rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+    
+    
+   
+}
+.targetService{
+    display: grid;
+    height: 95%;
+    margin-top: 1rem;
+    background-color: #b4dceb;
+    border: 1px rgba(0, 0, 0, 0.418) solid;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.targetService:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.proyectos{
+    margin-top: 3rem;
+    width: 100%;
+}
+.rowes img{
+    width: 100%;
+    cursor: pointer;
+}
+.rowes{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+    .servicios{
+        width: 100%;
+        padding: 1rem;
+    }
+}
