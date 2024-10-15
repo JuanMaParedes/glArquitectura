@@ -19,12 +19,45 @@ main{
 
 nav{
     padding-left: 2rem;
+    
 }
 nav img{
     width: 12rem;
     
     
 }
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.visible {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+#btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  
+}
+#btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
 #whatsappIcon{
     width: 2rem;
    
@@ -120,3 +153,54 @@ p{
         padding: 1rem;
     }
 }
+
+
+#oficinas img{
+    margin-top: 3rem;
+    border-radius: 1rem;
+    width: 70%;
+    border: 1px rgba(0, 0, 0, 0.418) solid;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+#oficinas img:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+   
+}
+.foot{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: #002a43;
+}
+.foot img{
+    width: 70%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    
+}
+.apartado p{
+    color: hsl(0, 100%, 100%);
+    font-size: 1rem;
+    
+}
+.apartado h3{
+    color: aliceblue;
+}
+
+.instaFoot img{
+    width: 20%;
+    margin-left: 1rem;
+}
+.instaFoot {
+    color: aliceblue;
+    
+}
+
+
