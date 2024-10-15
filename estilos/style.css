@@ -195,11 +195,14 @@ p{
 }
 
 .instaFoot img{
-    width: 20%;
-    margin-left: 1rem;
+    width: 15%;
+    margin-left: 3rem;
+    margin-top: .3rem;
+    
 }
 .instaFoot {
     color: aliceblue;
+    
     
 }
 
